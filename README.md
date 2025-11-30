@@ -130,11 +130,6 @@ streamlit run ui.py
 
 ⚠️ **注意**: 不要使用 `streamlit run run_ui.py`，这会导致双重启动。
 
-**演示脚本**：
-
-```bash
-python demo.py
-```
 
 ## 📖 使用示例
 
@@ -321,7 +316,6 @@ teaching_sys/
 ├── workflow.py          # 并行批处理工作流
 ├── system.py            # 主系统 API
 ├── ui.py                # Streamlit Web UI
-├── demo.py              # 演示脚本
 ├── run_ui.py            # UI 启动脚本
 ├── cleanup.py           # 清理缓存脚本
 ├── requirements.txt     # 依赖列表
@@ -438,3 +432,4 @@ MIT License
 ---
 
 **Made with ❤️ using LangChain, Concurrent Processing, and DeepSeek**
+
