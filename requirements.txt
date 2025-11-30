@@ -1,0 +1,14 @@
+# Core dependencies
+pydantic>=2.4
+langchain-openai>=0.2.2
+langchain-core>=0.3.0
+langgraph>=0.2.0
+
+# Utilities
+python-dotenv>=1.0
+
+# UI (optional)
+streamlit>=1.39
+
+# For demo
+
