@@ -24,8 +24,8 @@ except ImportError:
 try:
     from .agents import (
         CurriculumDesigner, Pedagogue, Librarian, SimulatedStudent, RepairAgent,
-        DifficultyLevel, KnowledgeNode, Resource, PedagogicalFeedback, StudentFeedback,
-    )
+        DifficultyLevel, KnowledgeNode, Resource, PedagogicalFeedback, StudentFeedback, detect_context_drift,
+)
 except ImportError:
     from agents import (
         CurriculumDesigner, Pedagogue, Librarian, SimulatedStudent, RepairAgent,
